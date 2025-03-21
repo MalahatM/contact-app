@@ -1,4 +1,4 @@
-import React from 'react'
+import ContactItem from "./ContactItem"
 
 function ContactsList({contacts}) {
   return (
@@ -6,20 +6,7 @@ function ContactsList({contacts}) {
 		<h3>Contacts List</h3>
 		{contacts.length ? (<ul>
 			{contacts.map((contact)=>(
-				<li key={contact.id}>
-				<p>
-					{contact.name}{contact.lastName}
-				</p>
-
-				<p>
-			
-			<span> 📧</span> {contact.email}
-			</p>
-			<p>
-				<span>📞</span> {contact.phone}
-			</p>
-			<button>🗑️</button>
-			</li>
+			<ContactItem key={contact.id} data={contact}/>	
 			))}
 		</ul>) : (<p> No Contacts yet</p>)
 		}
