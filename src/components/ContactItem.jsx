@@ -1,5 +1,5 @@
 
-import style from "./ContactItem.module.css"
+import styles from "./ContactItem.module.css"
 function ContactItem({data:{id, name, lastName, email, phone},deleteHandler,
 }) {
   return (

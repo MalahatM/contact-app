@@ -1,5 +1,5 @@
 import ContactItem from "./ContactItem"
-import style from "./ContactsList.module.css"
+import styles from "./ContactsList.module.css"
 
 function ContactsList({contacts,deleteHandler} ) {
   return (

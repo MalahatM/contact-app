@@ -37,3 +37,31 @@
 .item button:hover{
 	font-size: 1.5rem;
 }
+@media screen and (min-width: 350px) and (max-width: 854px) {
+	.item {
+	  padding: 8px 10px;
+	  margin: 10px;
+	  flex-wrap: wrap; 
+	}
+	.item p {
+	  font-size: 0.9rem;
+	  overflow-wrap: break-word;
+	  flex-basis: 100%;
+	  margin: 5px 0;
+	}
+	.item span {
+	  width: 30px;
+	  height: 30px;
+	  line-height: 30px;
+	  font-size: 1rem;
+	  margin-right: 5px;
+	}
+	.item button {
+	  width: 30px;
+	  height: 30px;
+	}
+	.item button:hover {
+	  font-size: 1.3rem;
+	}
+  }
+  
