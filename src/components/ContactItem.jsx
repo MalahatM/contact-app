@@ -5,7 +5,7 @@ function ContactItem({data:{id, name, lastName, email, phone},deleteHandler,
   return (
 	<li className={styles.item}>
 				<p>
-					{name}{lastName}
+					{name} {lastName}
 				</p>
 
 				<p>
