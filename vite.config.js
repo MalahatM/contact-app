@@ -5,5 +5,6 @@ export default defineConfig({
   base: "/contact-app/", 
   plugins: [react()],
   server: { port: 3000 },
+  base:'/contact-app/'
  
 })
